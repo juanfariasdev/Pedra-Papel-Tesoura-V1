@@ -57,10 +57,15 @@ function play() {
             alertar.innerText = `Computador Venceu de ${pcPoint} a ${userPoint}!!!`
             alertar.style = "display: flex"
         }
+        if (userPoint >= 3 || pcPoint >= 3) {
+            alertar.style = "display: none"
+        }
     }
 }
 
 function resetar() {
-    document.getElementById('player').src = 'player.png'
-    document.getElementById('resultado').innerText = ''
+    userPoint = 0
+    pcPoint = 0
+    pontuacaoUser.innerHTML = userPoint
+    pontuacaoPC.innerHTML = pcPoint
 }

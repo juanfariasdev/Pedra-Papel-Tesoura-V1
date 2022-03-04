@@ -39,7 +39,7 @@ function play() {
         //declaração de empate ou verificar qual jogador venceu (jogador x computador)
         if (sortear == usuario) {
             resultado.innerText = 'empatou';
-        } else if ((usuario === 0 && selecao === 2) || (usuario === 1 && sortear === 0) || (usuario === 2 && sortear === 1)) {
+        } else if ((usuario === 0 && sortear === 2) || (usuario === 1 && sortear === 0) || (usuario === 2 && sortear === 1)) {
             resultado.innerText = 'jogador ganhou';
             userPoint++
             pontuacaoUser.innerHTML = userPoint

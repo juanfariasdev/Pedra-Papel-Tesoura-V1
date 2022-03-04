@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pedra Papel Tesoura</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <h1><span style="color: gray;">Pedra</span> <span style="color: rgb(58, 109, 153);">Papel</span> <span
+            style="color: red;">Tesoura</span></h1>
+    <div class="Jogo">
+        <span id="alert"></span>
+
+
+        <form>
+            <div class="opcoes">
+                <div class="pedra">
+
+                    <input type="radio" name="grupo" id="pedra">Pedra
+                </div>
+                <div class="papel">
+                    <input type="radio" name="grupo" id="papel">Papel
+                </div>
+                <div class="tesoura">
+                    <input type="radio" name="grupo" id="tesoura">Tesoura
+                </div>
+            </div>
+            <div class="buttons">
+                <button type="button" id="btnJogar" onclick="play()">Jogar</button>
+                <button type="button" id="btnLimpar" onclick="resetar()">Limpar</button>
+            </div>
+            </p>
+        </form>
+
+        <div id="computadorPlayer">
+            <h3>Computador</h3>
+            <div id="computadorSelecao"> Ainda não joguei</div>
+        </div>
+
+        <h4 id="resultado"></h4>
+
+        <div>
+            <h3>Pontuação</h3>
+            <div class="pontuacao">
+                <span>Você:<span id="pontuacaoUser">0</span></span>
+                <span>Computador:<span id="pontuacaoPC">0</span></span>
+            </div>
+        </div>
+
+
+    </div>
+    <script src="./script.js"></script>
+
+
+</body>
+
+</html>

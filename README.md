@@ -1,5 +1,7 @@
 # Jogo de Pedra, Papel e Tesoura
 
+Acesse o projeto [clicando aqui](https://juanfariasdev.github.io/Pedra-Papel-Tesoura-V1/)
+
 Este é um exemplo simples de uma aplicação do clássico jogo "Pedra, Papel e Tesoura". Você pode visualizar a aplicação em ação [neste vídeo](https://www.instagram.com/p/Caqrk_Pr1M_/).
 
 ## Funcionalidades
